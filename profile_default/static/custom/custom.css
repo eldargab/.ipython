@@ -7,14 +7,12 @@ This will always be an empty file in IPython
 */
 
  /*Uncomment to use a custom font*/
-div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.prompt {
+div.CodeMirror, div.output_area pre {
   font-family: 'Consolas', monospace !important;
 }
 
-/* GLOBALS */
-body {background-color: #ffffff;}
+body {background-color: #fff;}
 
-/* INTRO PAGE */
 .toolbar_info, .list-container {color: #333;}
 
 div#notebook {border: none;}
@@ -24,6 +22,7 @@ div.output_prompt {color: #999;}
 div.input_area {
   border-radius: 0px;
   border: 1px solid #c5c8c6;
+  background: #fff;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 div.output_area pre {font-weight: normal; color: #333;}
@@ -59,8 +58,6 @@ span.ansiyellow {color: #333;}
 
 div.output_stderr {background-color: #CC342B;}
 div.output_stderr pre {color: #e0e0e0;}
-
-/* NOTEBOOK */
 
 .CodeMirror pre {
   line-height: 1.5;

@@ -2,3 +2,4 @@
 !.gitignore
 !/static
 !/startup
+!/*config.py
